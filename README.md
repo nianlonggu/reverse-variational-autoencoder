@@ -1,1 +1,1 @@
-# Reverse-Variational-Autoencoderfor-Visual-Attribute-Manipulation-and-Anomaly-Detection
+# Reverse Variational Autoencoder for Visual Attributes Manipulation and Anomaly Detection
