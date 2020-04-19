@@ -7,7 +7,7 @@
 ```
 python train.py  --ngpu 8 --model_dir model/ --train_data_dir dataset/celeba/train/ --test_data_dir dataset/celeba/test/
 ```
-In the file train.py you can configure the hyperparameters, including the model size and final image resolutions. The default image resolsution is 1024x1024, which means the model will gradually grow from 4x4, 8x8, ... finally to 1024x1024. When training the 1024x1024 model, 8 x Tesla V100 32GB GPUs were used.
+In the file train.py you can configure the hyperparameters, including the model size and final image resolutions. The default image resolsution is 1024x1024, which means the model will gradually grow from 4x4, 8x8, ... finally to 1024x1024. When training the 1024x1024 model, 8 x Tesla V100 32GB GPUs were used. However, if the final resolustion is 512x512, the model should be able to be trained on 8 x GTX 1080Ti GPUs (not verified).
 ## Testing
 ```
 python inference.py  --ngpu 8 --ckpt_file_name model/stagecheckpoint/model_stage_#_step_#.pt --train_data_dir dataset/celeba/train/ --test_data_dir dataset/celeba/test/
