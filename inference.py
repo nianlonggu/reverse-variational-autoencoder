@@ -49,7 +49,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--ngpu", type = int, default= 0)
     parser.add_argument("--ckpt_file_name" )
-    parser.add_argument("--train_data_dir" )
+    parser.add_argument("--train_data_dir", default = "" )
     parser.add_argument("--test_data_dir" )
     args = parser.parse_args()
     ngpu = args.ngpu
