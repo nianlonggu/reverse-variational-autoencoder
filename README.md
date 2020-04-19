@@ -44,3 +44,9 @@ You can specify the stage number and step number to determine which resolustion 
 256x256: ![256x256](https://github.com/nianlonggu/reverse_variational_autoencoder/blob/master/results/256x256_recon.png)
 
 512x512: ![512x512](https://github.com/nianlonggu/reverse_variational_autoencoder/blob/master/results/512x512_recon.png)
+
+## Paper
+Lydia, Gauerhof, and Nianlong Gu. "Reverse Variational Autoencoder for Visual Attribute Manipulation and Anomaly Detection." The IEEE Winter Conference on Applications of Computer Vision. 2020.
+
+## Contact
+If you have any question, please contact nianlonggu@gmail.com or Lydia.Gauerhof@de.bosch.com
